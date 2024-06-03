@@ -5,6 +5,8 @@ const withPWA = withPWAInit({
 });
 
 /** @type {import('next').NextConfig} */
-const nextConfig = withPWA({});
+const nextConfig = withPWA({
+  basePath: "/hoge",
+});
 
 export default nextConfig;
