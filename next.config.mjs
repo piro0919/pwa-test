@@ -6,6 +6,7 @@ const withPWA = withPWAInit({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withPWA({
+  assetPrefix: "/fuga",
   basePath: "/hoge",
 });
 
